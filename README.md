@@ -3,7 +3,7 @@
 
 This is the first project I have worked on in order to learn the latest front-end technologies.
 
-### Stuff I've learned and/or practiced:
+## Stuff I've learned and/or practiced:
 - TypeScript and JavaScript
 - Writing basic tests
 - React Framework along with Redux, Router, etc.
