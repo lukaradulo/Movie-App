@@ -1,0 +1,20 @@
+ 
+:root {
+  --bg-color: #f4f4f4;
+  --component-bg-color: white;
+  --remove-movie-color: black;
+  --no-results: #424242;
+  --navbar-color: lightsalmon;
+  --text-color: white;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.body {
+  margin-left: 60px;
+}
+

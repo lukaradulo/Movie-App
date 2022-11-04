@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+h1 {
+  margin: 10px 0 0 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+ 
+.MoviePage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  font-family: "Poppins", sans-serif;
+  margin: 20px 15px;
+  color: rgb(38, 38, 38);
+  transition: all 0.2s;
+}
+
+.top-section {
+  background-color: var(--component-bg-color);
+  padding: 20px;
+  
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.movie-content {
+  margin-left: 30px;
+  color: var(--text-color);
+}
+
+.wishlist-button {
+  margin-top: 20px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--component-bg-color);
+  padding: 10px 20px 25px 15px;
+  margin-top: 1rem;
+
+  color: var(--text-color);
+}
+
+.actors {
+  margin-top: 20px;
+}

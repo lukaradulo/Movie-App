@@ -1,0 +1,56 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+
+.AboutPage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  font-family: "Poppins", sans-serif;
+  margin: 20px 15px;
+  transition: all 0.2s;
+}
+ 
+.about-us {
+  background-color: var(--component-bg-color);
+  padding: 10px 20px 25px 15px;
+}
+
+.sub-description {
+  font-size: 14px;
+}
+
+.contact-and-map {
+  margin-top: 1rem;
+  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact-us {
+  padding: 10px 20px 25px 15px;
+  background-color: var(--component-bg-color);
+  margin-right: 8px;
+}
+
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-us {
+  padding: 10px 20px 25px 15px;
+  background-color: var(--component-bg-color);
+  margin-left: 8px;
+}
+
+.map {
+  height: 53vh;
+  width: 100%;
+  border: 1px solid #a0a0a0;
+}

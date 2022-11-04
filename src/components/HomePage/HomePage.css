@@ -1,0 +1,166 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+h1 {
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+
+.HomePage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s;
+}
+
+.WelcomeHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-color: var(--component-bg-color);
+
+  padding: 10px 20px 25px 15px;
+  margin: 20px 15px;
+}
+
+.MovieSearch {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  justify-content: center;
+  justify-items: center;
+
+  background-color: var(--component-bg-color);
+  margin: 0 15px 20px 15px;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 500px;
+  margin-top: 25px;
+
+  padding: 0.75rem 1rem;
+  border: 1px solid #a0a0a0;
+  border-radius: 0.7rem;
+  background: #fff;
+}
+
+.search-button input {
+  flex: 1;
+  border: none;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+
+  width: 50vw;
+
+  outline: none;
+  color: rgb(54, 54, 54);
+  background: #fff;
+}
+
+.MovieContainer {
+  width: 80vw;
+}
+
+.movie-list {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.SavedMovies {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 25px 0 50px 0;
+}
+
+.watchlist-title {
+ font-size: 1.3rem;
+ margin-top: 15px;
+}
+
+.watchlist-movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.saved-movie-container {
+  position: relative;
+}
+
+.saved-movie-container img {
+  margin: 15px 15px 0 0;
+  border: 2px solid #555;
+  border-radius: 7px;
+  justify-self: center;
+}
+
+.saved-movie-container:hover img {
+  opacity: 0.3;
+}
+
+.saved-movie-container .remove-button {
+  color: var(--remove-movie-color);
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 10px 5px 0 0;
+  opacity: 0;
+  z-index: 100;
+}
+
+.saved-movie-container:hover .remove-button {
+  opacity: 1;
+}
+
+.empty {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.no-results {
+  margin-top: 20px;
+  
+  font-size: 1.5rem;
+  color: var(--no-results);
+}
+
+.movie-card {
+  width: 270px;
+  height: 400px;
+  margin: 1.5rem;
+
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.MuiCardMedia-media {
+  width: 100%;
+}
+
+.sub-header {
+  font-size: 14px;
+}
